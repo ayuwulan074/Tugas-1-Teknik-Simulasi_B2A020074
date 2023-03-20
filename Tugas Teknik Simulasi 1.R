@@ -1,9 +1,9 @@
-#Tugas Teknik Simulasi
-#Nama : Ayu Wulandari 
-#Nim : Genap 
+# Tugas Teknik Simulasi
+# Nama : Ayu Wulandari 
+# Nim : B2A020074 (Genap)
 
-#Deketahui nilai a=45,z0= 21139,m=417,n=150
-#Menggunakan multiplicative_RNG dan Bernoulli_1
+# Deketahui nilai a=45,z0= 21139,m=417,n=150
+# Menggunakan multiplicative_RNG dan Bernoulli_1
 
 #Multiplicative
 multiplicative_RNG<-function(a,z0,m,n) {
@@ -21,7 +21,7 @@ multiplicative_RNG<-function(a,z0,m,n) {
 }
 multiplicative_RNG(45,21139,417,150)
 
-#Bernoulli_1
+# Bernoulli_1
 Bernoulli_1<-function(n,p) {
   i<-n
   p<-p
@@ -40,7 +40,7 @@ Bernoulli_1<-function(n,p) {
   (tabel<-table(Y)/length(Y))
 }
 
-#Memasukan nilai dari tabel xj untuk kolom Xj sebagai nilai n pada function Bernoulli
+# Memasukan nilai dari tabel xj untuk kolom Xj sebagai nilai n pada function Bernoulli
 Bernoulli_1(78,p)
 Bernoulli_1(174,p)
 Bernoulli_1(324,p)
