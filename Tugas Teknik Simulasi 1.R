@@ -40,7 +40,7 @@ Bernoulli_1<-function(n,p) {
   (tabel<-table(Y)/length(Y))
 }
 
-#Memasukan nilai dari tabel Xj untuk kolom xj sebagai nilai n pada function Bernoulli
+#Memasukan nilai dari tabel xj untuk kolom Xj sebagai nilai n pada function Bernoulli
 Bernoulli_1(78,p)
 Bernoulli_1(174,p)
 Bernoulli_1(324,p)
